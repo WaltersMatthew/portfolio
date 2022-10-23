@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import NavBar from '../components/navBar'
-
+import About from './about'
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
       <NavBar />
       {/* aside */}
       <Component {...pageProps} />
+      <About />
       {/* footer */}
     </>
   )
