@@ -160,7 +160,7 @@ export default function About(){
                 <p className="text-2xl flex justify-center">Projects</p>
                 <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/favicon.ico" alt="Sunset in the mountains" />
+                        <img class="w-full" src="/musicly.png" alt="musicly screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Musicly</div>
                             <p class="text-gray-700 text-base">
@@ -171,7 +171,7 @@ export default function About(){
                         </div>
                     </div>
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/favicon.ico" alt="Sunset in the mountains" />
+                        <img class="w-full" src="/podcats.png" alt="podcats screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Pod-Cats</div>
                             <p class="text-gray-700 text-base">
@@ -182,7 +182,7 @@ export default function About(){
                         </div>
                     </div>
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/favicon.ico" alt="Sunset in the mountains" />
+                        <img class="w-full" src="/booktalk.png" alt="booktalk screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">BookTalk</div>
                             <p class="text-gray-700 text-base">
