@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function About(){
     return( 
         <>
-            <div className='bg: my-4 p-4'>
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-20 mt-10">
+            <div className='bg: my-2 p-4'>
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-20">
                     <div className="p-4 text-xl flex flex-col justify-center">
                         <p className="mb-4">
                             &emsp;I am Matt Walters, a pet lover, programmer, and drummer.
@@ -44,7 +44,7 @@ export default function About(){
             </div>
 
             <div className="p-4">
-                <p className="text-2xl flex justify-center m-4">My tech stack</p>
+                {/* <p className="text-2xl flex justify-center m-4">My tech stack</p> */}
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 py-4">
                     <div className="mx-auto flex flex-col">
                         <img 
@@ -163,44 +163,52 @@ export default function About(){
                         <img class="w-full" src="/musicly.png" alt="musicly screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Musicly</div>
-                            <p class="text-gray-700 text-base">
-                                A place for students to find remote music teachers. Mobile responsive app allows students to sign up and find the teacher that fits their needs and send lesson inquiries. Paired project made with React and Django
-                            </p>
-                                <a href="https://musicly-swart.vercel.app/">Live Deployment</a>
-                                <a href="https://github.com/WaltersMatthew/musicly"><img src='github.png'/></a>
+                                <p class="text-gray-700 text-base">
+                                    A place for students to find remote music teachers. Mobile responsive app allows students to sign up and find the teacher that fits their needs and send lesson inquiries. Paired project made with React and Django
+                                </p>
+                                <div className='flex justify-between mt-10 items-end'>
+                                    <a className="underline" href="https://musicly-swart.vercel.app/">Live Deployment</a>
+                                    <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14' src='github.png'/></a>
+                                </div>                                    
                         </div>
                     </div>
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/podcats.png" alt="podcats screencap" />
+                        <img class="w-full max-h-64" src="/podcats.png" alt="podcats screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Pod-Cats</div>
-                            <p class="text-gray-700 text-base">
-                            A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a "feed" featuring all posts from all users. Group project using React and MongoDB
-                            </p>
-                                <a href="https://lucky-pudding-9e4bf7.netlify.app/">Live Deployment</a>
-                                <a href="https://github.com/WaltersMatthew/pod-cats-client"><img src='github.png'/></a>
+                                <p class="text-gray-700 text-base">
+                                A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a "feed" featuring all posts from all users. Group project using React and MongoDB
+                                </p>
+                                <div className='flex justify-between mt-10 items-end'>
+                                    <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/">Live Deployment</a>
+                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14' src='github.png'/></a>
+                                </div>
                         </div>
                     </div>
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/booktalk.png" alt="booktalk screencap" />
+                        <img class="w-full max-h-64" src="/booktalk.png" alt="booktalk screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">BookTalk</div>
-                            <p class="text-gray-700 text-base">
-                                An all-in-one spot for book lovers to find their favorite books and authors, leave reviews, and view their friends profiles. Solo project with Express and PostgreSQL
-                            </p>
-                                <a href="https://booktalk-waltersmatthew.koyeb.app/">Live Deployment</a>
-                                <a href="https://github.com/WaltersMatthew/BookTalk"><img src='github.png'/></a>
+                                <p class="text-gray-700 text-base">
+                                    An all-in-one spot for book lovers to find their favorite books and authors, leave reviews, and view their friends profiles. Solo project with Express and PostgreSQL
+                                </p>
+                                <div className='flex justify-between mt-10 items-end'>
+                                    <a className="underline" href="https://booktalk-waltersmatthew.koyeb.app/">Live Deployment</a>
+                                    <a href="https://github.com/WaltersMatthew/BookTalk"><img className='max-h-14' src='github.png'/></a>
+                                </div>
                         </div>
                     </div>
                     <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
                         <img class="w-full" src="/FITC.png" alt="Fritz in the city screencap" />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Fritz in the City</div>
-                            <p class="text-gray-700 text-base">
-                                A fun take on a classing side-scrolling platform hopper. Get Fritz across the skyscrapers and back home to his favorite pink ball! Solo project made with javascript canvas
-                            </p>
-                                <a href="https://waltersmatthew.github.io/Fritz-in-the-City/">Live Deployment</a>
-                                <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img src='github.png'/></a>
+                                <p class="text-gray-700 text-base">
+                                    A fun take on a classing side-scrolling platform hopper. Get Fritz across the skyscrapers and back home to his favorite pink ball! Solo project made with javascript canvas
+                                </p>
+                                <div className='flex justify-between mt-10 items-end'>
+                                    <a className="underline" href="https://waltersmatthew.github.io/Fritz-in-the-City/">Live Deployment</a>
+                                    <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img className='max-h-14' src='github.png'/></a>
+                                </div>
                         </div>
                     </div>
                 </div>
