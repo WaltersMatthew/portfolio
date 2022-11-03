@@ -14,7 +14,7 @@ export default function About(){
                         <p className="mb-4">
                         &emsp; My drumming instilled a passion for learning and dedication to a craft, and I have brought those skill sets to software engineering.
                         </p>
-                        <p className="mb-4">
+                        <p className="">
                         &emsp; As a southern Califonia native, I love fresh air, crisp fall nights, and some great coffee.
                         </p>
                     </div>
@@ -25,7 +25,7 @@ export default function About(){
                             alt="Matt headshot"
                         />      
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center mt-6 md:mt-0">
                         <a href="https://github.com/WaltersMatthew">
                             <img
                                 src="/github.png" 
@@ -40,7 +40,14 @@ export default function About(){
                                 className='h-20 m-4'
                             />
                         </a>
-                </div>
+                        <a href="mailto:waltersmatthew88@gmail.com">
+                            <img
+                                src="/email.png"
+                                alt="email logo"
+                                className='h-20 m-4'
+                            />
+                        </a>
+                    </div>
             </div>
 
             <div className="p-4">
