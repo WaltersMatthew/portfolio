@@ -22,7 +22,7 @@ export default function About(){
                         <img 
                             src='/headshot.jpeg' 
                             className='rounded-full max-h-80 mx-auto'
-                            al="Matt headshot"
+                            alt="Matt headshot"
                         />      
                     </div>
                     <div className="flex justify-center">
@@ -168,7 +168,7 @@ export default function About(){
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
                                     <a className="underline" href="https://musicly-swart.vercel.app/">Live Deployment</a>
-                                    <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14' src='github.png'/></a>
+                                    <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14' src='github.png' alt="github logo"/></a>
                                 </div>                                    
                         </div>
                     </div>
@@ -177,11 +177,11 @@ export default function About(){
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Pod-Cats</div>
                                 <p class="text-gray-700 text-base">
-                                A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a "feed" featuring all posts from all users. Group project using React and MongoDB
+                                A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a  social feed featuring all posts from all users. Group project using React and MongoDB
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
                                     <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/">Live Deployment</a>
-                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14' src='github.png'/></a>
+                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ export default function About(){
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
                                     <a className="underline" href="https://booktalk-waltersmatthew.koyeb.app/">Live Deployment</a>
-                                    <a href="https://github.com/WaltersMatthew/BookTalk"><img className='max-h-14' src='github.png'/></a>
+                                    <a href="https://github.com/WaltersMatthew/BookTalk"><img className='max-h-14' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ export default function About(){
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
                                     <a className="underline" href="https://waltersmatthew.github.io/Fritz-in-the-City/">Live Deployment</a>
-                                    <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img className='max-h-14' src='github.png'/></a>
+                                    <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img className='max-h-14' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
