@@ -166,11 +166,11 @@ export default function About(){
             <div>
                 <p className="text-2xl flex justify-center">Projects</p>
                 <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
-                    <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/musicly.png" alt="musicly screencap" />
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Musicly</div>
-                                <p class="text-gray-700 text-base">
+                    <div className="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
+                        <img className="w-full" src="/musicly.png" alt="musicly screencap" />
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Musicly</div>
+                                <p className="text-gray-700 text-base">
                                     A place for students to find remote music teachers. Mobile responsive app allows students to sign up and find the teacher that fits their needs and send lesson inquiries. Paired project made with React and Django
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
@@ -179,11 +179,11 @@ export default function About(){
                                 </div>                                    
                         </div>
                     </div>
-                    <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full max-h-64" src="/podcats.png" alt="podcats screencap" />
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Pod-Cats</div>
-                                <p class="text-gray-700 text-base">
+                    <div className="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
+                        <img className="w-full max-h-64" src="/podcats.png" alt="podcats screencap" />
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Pod-Cats</div>
+                                <p className="text-gray-700 text-base">
                                 A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a  social feed featuring all posts from all users. Group project using React and MongoDB
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
@@ -192,11 +192,11 @@ export default function About(){
                                 </div>
                         </div>
                     </div>
-                    <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full max-h-64" src="/booktalk.png" alt="booktalk screencap" />
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">BookTalk</div>
-                                <p class="text-gray-700 text-base">
+                    <div className="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
+                        <img className="w-full max-h-64" src="/booktalk.png" alt="booktalk screencap" />
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">BookTalk</div>
+                                <p className="text-gray-700 text-base">
                                     An all-in-one spot for book lovers to find their favorite books and authors, leave reviews, and view their friends profiles. Solo project with Express and PostgreSQL
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
@@ -205,12 +205,12 @@ export default function About(){
                                 </div>
                         </div>
                     </div>
-                    <div class="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
-                        <img class="w-full" src="/FITC.png" alt="Fritz in the city screencap" />
-                        <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Fritz in the City</div>
-                                <p class="text-gray-700 text-base">
-                                    A fun take on a classing side-scrolling platform hopper. Get Fritz across the skyscrapers and back home to his favorite pink ball! Solo project made with javascript canvas
+                    <div className="max-w-sm bg-slate-300 rounded overflow-hidden shadow-lg mx-auto">
+                        <img className="w-full" src="/FITC.png" alt="Fritz in the city screencap" />
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Fritz in the City</div>
+                                <p className="text-gray-700 text-base">
+                                    A fun take on a classic side-scrolling platform hopper. Get Fritz across the skyscrapers and back home to his favorite pink ball! Solo project made with javascript canvas
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
                                     <a className="underline" href="https://waltersmatthew.github.io/Fritz-in-the-City/">Live Deployment</a>
