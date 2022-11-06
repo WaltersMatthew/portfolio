@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        fancy: ['"Seaweed Script"']
+        fancy: ['"Seaweed Script"'],
+        header: ['"Bebas Neue"']
       }
     },
   },

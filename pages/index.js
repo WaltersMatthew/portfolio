@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* useRef + scrolling  */}
-      <h1 className='flex justify-center text-[50px] md:text-[100px] mt-10 font-fancy'>Matthew Walters</h1>
+      <h1 className='flex justify-center text-[60px] md:text-[100px] mt-10 font-header'>Matthew Walters</h1>
     </div>
   )
 }
