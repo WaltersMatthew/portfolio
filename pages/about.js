@@ -174,7 +174,11 @@ export default function About(){
                                     A place for students to find remote music teachers. Mobile responsive app allows students to sign up and find the teacher that fits their needs and send lesson inquiries. Paired project made with React and Django
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    <a className="underline" href="https://musicly-swart.vercel.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>Live Deployment</button></a>
+                                    {/* <a className="underline" href="https://musicly-swart.vercel.app/"> */}
+                                        <p className='bg-slate-300 hover:bg-black hover:text-white transition ease-in-out mx-2 p-2 rounded-xl'>
+                                            Deployment under construction
+                                        </p>
+                                    {/* </a> */}
                                     <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14' src='github.png' alt="github logo"/></a>
                                 </div>                                    
                         </div>
