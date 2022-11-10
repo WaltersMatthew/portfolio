@@ -9,13 +9,13 @@ export default function About(){
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-20">
                     <div className="p-4 text-xl flex flex-col justify-center rounded-xl">
                         <p className="mb-4">
-                        I am Matt Walters, a pet lover, programmer, and drummer.
+                        I am Matt Walters, professional JavaScript developer and software engineer.
                         </p> 
                         <p className="mb-4">
-                        My drumming instilled a passion for learning and dedication to a craft, and I have brought those skill sets to software engineering.
+                        My 15 years of competitive drumming and teaching have instilled a passion for learning and dedication to a craft, and I have brought those skill sets to software engineering.
                         </p>
                         <p className="">
-                        As a southern Califonia native, I love fresh air, crisp fall nights, and some great coffee.
+                        As a southern Califonia native, I love fresh air, crisp fall nights, playing with my dogs, and some great coffee.
                         </p>
                     </div>
 
