@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function About(){
     return( 
         <>
-            <div className='my-2 p-4  border-2 border-slate-400 rounded-xl  bg-slate-400 '>
+            <div className='my-2 mx-4 p-4  border-2 border-slate-400 rounded-xl  bg-slate-400 '>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-20">
                     <div className="p-4 text-xl flex flex-col justify-center rounded-xl">
                         <p className="mb-4">
@@ -224,7 +224,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
-            <div className='mb-20'>
+            <div className='mb-20 mx-4'>
                 <p className='mx-auto text-xl flex justify-center  mt-32 mb-20 text-[50px] md:text-[100px] font-header underline'>Get in touch</p>
                 <div className="my-2 p-4  border-2 border-slate-400 rounded-xl bg-slate-400 ">
                     <p className="my-2 text-xl">
