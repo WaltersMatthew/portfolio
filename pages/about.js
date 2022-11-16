@@ -30,21 +30,21 @@ export default function About(){
                             <img
                                 src="/github.png" 
                                 alt="github logo"
-                                className='h-20 m-4'
+                                className='h-20 m-4 hover:scale-125 transition duration-300 ease-in-out'
                             />
                         </a>  
                         <a href="https://www.linkedin.com/in/matthew-walters13/">
                             <img 
                                 src="/linkedin.png"
                                 alt="linkedin logo"
-                                className='h-20 m-4'
+                                className='h-20 m-4 hover:scale-125 transition duration-300 ease-in-out'
                             />
                         </a>
                         <a href="mailto:waltersmatthew88@gmail.com">
                             <img
                                 src="/email.png"
                                 alt="email logo"
-                                className='h-20 m-4'
+                                className='h-20 m-4 hover:scale-125 transition duration-300 ease-in-out'
                             />
                         </a>
                     </div>
@@ -66,7 +66,7 @@ export default function About(){
                         <img 
                             src='/css.png'
                             alt='css'
-                            className="max-h-20 max-w-20 rounded-full shadow-lg"
+                            className="max-h-20 max-w-20 rounded-full shadow-lg "
                         />
                         <p className="mx-auto">CSS 3</p>
                     </div>  
@@ -93,7 +93,7 @@ export default function About(){
                         <img 
                             src='/react.png'
                             alt='react'
-                            className="max-h-20 rounded-full shadow-lg"
+                            className="max-h-20 rounded-full shadow-lg "
                         />
                         <p className="mx-auto">ReactJS</p>
                     </div>
@@ -166,7 +166,7 @@ export default function About(){
             <div>
                 <p className="text-2xl flex justify-center  mt-32 mb-20 text-[50px] md:text-[100px] font-header underline">Projects</p>
                 <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
-                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto">
+                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto hover:scale-110 transition duration-300 ease-in-out">
                         <img className="w-full" src="/musicly.png" alt="musicly screencap" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Musicly</div>
@@ -179,11 +179,11 @@ export default function About(){
                                             Deployment under construction
                                         </p>
                                     {/* </a> */}
-                                    <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14' src='github.png' alt="github logo"/></a>
+                                    <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
                                 </div>                                    
                         </div>
                     </div>
-                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto">
+                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto hover:scale-110 transition duration-300 ease-in-out">
                         <img className="w-full max-h-64" src="/podcats.png" alt="podcats screencap" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Pod-Cats</div>
@@ -191,12 +191,12 @@ export default function About(){
                                 A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a  social feed featuring all posts from all users. Group project using React and MongoDB
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>Live Deployment</button></a>
-                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14' src='github.png' alt="github logo"/></a>
+                                    <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out'>Live Deployment</button></a>
+                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto">
+                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto hover:scale-110 transition duration-300 ease-in-out">
                         <img className="w-full max-h-64" src="/booktalk.png" alt="booktalk screencap" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">BookTalk</div>
@@ -204,12 +204,12 @@ export default function About(){
                                     An all-in-one spot for book lovers to find their favorite books and authors, leave reviews, and view their friends profiles. Solo project with Express and PostgreSQL
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    <a className="underline" href="https://booktalk-waltersmatthew.koyeb.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>Live Deployment</button></a>
-                                    <a href="https://github.com/WaltersMatthew/BookTalk"><img className='max-h-14' src='github.png' alt="github logo"/></a>
+                                    <a className="underline" href="https://booktalk-waltersmatthew.koyeb.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out'>Live Deployment</button></a>
+                                    <a href="https://github.com/WaltersMatthew/BookTalk"><img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto">
+                    <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto hover:scale-110 transition duration-300 ease-in-out">
                         <img className="w-full" src="/FITC.png" alt="Fritz in the city screencap" />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Fritz in the City</div>
@@ -217,8 +217,8 @@ export default function About(){
                                     A fun take on a classic side-scrolling platform hopper. Get Fritz across the skyscrapers and back home to his favorite pink ball! Solo project made with javascript canvas
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    <a className="underline" href="https://waltersmatthew.github.io/Fritz-in-the-City/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>Live Deployment</button></a>
-                                    <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img className='max-h-14' src='github.png' alt="github logo"/></a>
+                                    <a className="underline" href="https://waltersmatthew.github.io/Fritz-in-the-City/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl  hover:scale-125 transition duration-300 ease-in-out'>Live Deployment</button></a>
+                                    <a href="https://github.com/WaltersMatthew/Fritz-in-the-City"><img className='max-h-14  hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
                                 </div>
                         </div>
                     </div>
@@ -234,23 +234,27 @@ export default function About(){
                         If you would like to grab coffee and chat about some freelance work, I am also open to those conversations! 
                     </p>
 
-                    <div className='grid grid-cols-1 md:grid-cols-2'>
-                        <p className="my-2 text-xl">   
-                            Email me:
-                            <a className="underline" href="mailto:waltersmatthew88@gmail.com">
-                                <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>
-                                    waltersmatthew88@gmail.com
-                                </button>
-                            </a> 
-                        </p>
-                        <p className='my-2 text-xl'>
-                            Find me on LinkedIn: 
-                            <a className='underline' href="https://www.linkedin.com/in/matthew-walters13/">
-                                <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl'>
-                                    in/matthew-walters13
-                                </button>
-                            </a>
-                        </p>
+                    <div className='md:flex justify-around'>
+                        <div className=''>
+                            <p className="my-2 text-xl">   
+                                Email me:
+                                <a className="underline" href="mailto:waltersmatthew88@gmail.com">
+                                    <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
+                                        waltersmatthew88@gmail.com
+                                    </button>
+                                </a> 
+                            </p>
+                        </div>
+                        <div>
+                            <p className='my-2 text-xl'>
+                                Find me on LinkedIn: 
+                                <a className='underline' href="https://www.linkedin.com/in/matthew-walters13/">
+                                    <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
+                                        in/matthew-walters13
+                                    </button>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
