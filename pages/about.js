@@ -174,11 +174,12 @@ export default function About(){
                                     A place for students to find remote music teachers. Mobile responsive app allows students to sign up and find the teacher that fits their needs and send lesson inquiries. Paired project made with React and Django
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    {/* <a className="underline" href="https://musicly-swart.vercel.app/"> */}
-                                        <p className='bg-slate-300 hover:bg-black hover:text-white transition ease-in-out mx-2 p-2 rounded-xl'>
-                                            Deployment under construction
-                                        </p>
-                                    {/* </a> */}
+                                    <a className="underline" href="https://musicly-swart.vercel.app/">
+                                        <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out'>
+                                            Live Deployment
+                                        </button>
+                                    </a>
+                                    
                                     <a href="https://github.com/WaltersMatthew/musicly"><img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
                                 </div>                                    
                         </div>
@@ -191,8 +192,15 @@ export default function About(){
                                 A social app for all things cats! A mobile-first app to find and share photos of random cats, or your own furry friends. Includes a  social feed featuring all posts from all users. Group project using React and MongoDB
                                 </p>
                                 <div className='flex justify-between mt-10 items-end'>
-                                    <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/"><button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out'>Live Deployment</button></a>
-                                    <a href="https://github.com/WaltersMatthew/pod-cats-client"><img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/></a>
+                                    <a className="underline" href="https://lucky-pudding-9e4bf7.netlify.app/">
+                                        <button className='bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out'>
+                                            Live Deployment
+                                        </button>
+                                    </a>
+                                    
+                                    <a href="https://github.com/WaltersMatthew/pod-cats-client">
+                                        <img className='max-h-14 hover:scale-125 transition duration-300 ease-in-out' src='github.png' alt="github logo"/>
+                                    </a>
                                 </div>
                         </div>
                     </div>
