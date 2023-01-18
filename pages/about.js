@@ -1,6 +1,7 @@
 import styles from "../styles/About.module.css";
 import Image from "next/image";
 import ProjectCard from "../components/ProjectCard";
+import SkillCard from "../components/SkillCard";
 
 export default function About() {
     return (
@@ -61,6 +62,7 @@ export default function About() {
                     Skills
                 </p>
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 py-4">
+                    <SkillCard src="/html.png" alt="html" skill="HTML 5" />
                     <div className="mx-auto flex flex-col">
                         <img
                             className="max-h-20 rounded-full shadow-lg"
