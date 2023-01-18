@@ -7,10 +7,10 @@ export default function SkillCard(props) {
                 className="rounded-full shadow-lg"
                 src={props.src}
                 alt={props.alt}
-                height="100"
+                height="90"
                 width="100"
             />
-            <p className="mx-auto">{props.skill}</p>
+            <p className="mx-auto pt-2 text-lg">{props.skill}</p>
         </div>
     );
 }
