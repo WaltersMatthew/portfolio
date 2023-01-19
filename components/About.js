@@ -1,3 +1,5 @@
+import LinkIcon from "./LinkIcon";
+
 export default function About() {
     return (
         <div className="my-2 mx-4 p-4  border-2 border-slate-400 rounded-xl  bg-slate-400 ">
@@ -26,28 +28,27 @@ export default function About() {
                     alt="Matt headshot"
                 />
             </div>
-            <div className="flex justify-center mt-6 md:mt-0">
-                <a href="https://github.com/WaltersMatthew">
-                    <img
-                        src="/github.png"
-                        alt="github logo"
-                        className="h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
-                    />
-                </a>
-                <a href="https://www.linkedin.com/in/matthew-walters13/">
-                    <img
-                        src="/linkedin.png"
-                        alt="linkedin logo"
-                        className="h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
-                    />
-                </a>
-                <a href="mailto:waltersmatthew88@gmail.com">
-                    <img
-                        src="/email.png"
-                        alt="email logo"
-                        className="h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
-                    />
-                </a>
+            <div target="_blank" className="flex justify-center mt-6 md:mt-0">
+                <LinkIcon
+                    href="https://github.com/WaltersMatthew"
+                    src="/github.png"
+                    alt="github logo"
+                />
+                <LinkIcon
+                    href="https://www.linkedin.com/in/matthew-walters13/"
+                    src="/linkedin.png"
+                    alt="linkedin logo"
+                />
+                <LinkIcon
+                    href="mailto:waltersmatthew88@gmail.com"
+                    src="/email.png"
+                    alt="email logo"
+                />
+                <LinkIcon
+                    href="https://docs.google.com/document/d/1lZKVE7m6OQ0c-OrdIto1hGfQp3ZbUtNEj2wURtz1t6U/edit"
+                    src="/resume.png"
+                    alt="resume logo"
+                />
             </div>
         </div>
     );

@@ -35,9 +35,24 @@ export default function Footer() {
                             <a
                                 className="underline"
                                 href="https://www.linkedin.com/in/matthew-walters13/"
+                                target="_blank"
                             >
                                 <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out">
                                     in/matthew-walters13
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p className="my-2 text-xl">
+                            Find my resume:
+                            <a
+                                className="underline"
+                                target="_blank"
+                                href="https://docs.google.com/document/d/1lZKVE7m6OQ0c-OrdIto1hGfQp3ZbUtNEj2wURtz1t6U/edit"
+                            >
+                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out">
+                                    Here!
                                 </button>
                             </a>
                         </p>
