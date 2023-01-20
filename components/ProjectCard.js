@@ -15,17 +15,22 @@ export default function ProjectCard(props) {
                 <div className="font-bold text-xl mb-2">{props.title}</div>
                 <p className="text-base">{props.text}</p>
                 <div className="flex justify-between mt-10 items-end">
-                    <a className="underline" href={props.live}>
+                    <a
+                        className="underline"
+                        href={props.live}
+                        rel="noreferrer"
+                        target="_blank"
+                    >
                         <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-125 transition duration-300 ease-in-out">
                             {props.liveStatus}
                         </button>
                     </a>
 
-                    <a href={props.github}>
+                    <a href={props.github} rel="noreferrer" target="_blank">
                         <img
+                            alt="github logo"
                             className="max-h-14 hover:scale-125 transition duration-300 ease-in-out"
                             src="github.png"
-                            alt="github logo"
                         />
                     </a>
                 </div>

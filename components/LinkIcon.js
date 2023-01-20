@@ -2,7 +2,7 @@ import React from "react";
 
 function LinkIcon(props) {
     return (
-        <a target="_blank" href={props.href}>
+        <a target="_blank" rel="noreferrer" href={props.href}>
             <img
                 src={props.src}
                 alt={props.alt}
