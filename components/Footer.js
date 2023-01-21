@@ -49,7 +49,7 @@ export default function Footer() {
                             Find my resume:
                             <a
                                 className="underline"
-                                href="https://docs.google.com/document/d/1lZKVE7m6OQ0c-OrdIto1hGfQp3ZbUtNEj2wURtz1t6U/edit"
+                                href="/resume.pdf"
                                 rel="noreferrer"
                                 target="_blank"
                             >

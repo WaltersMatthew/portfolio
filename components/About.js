@@ -45,7 +45,7 @@ export default function About() {
                     alt="email logo"
                 />
                 <LinkIcon
-                    href="https://docs.google.com/document/d/1lZKVE7m6OQ0c-OrdIto1hGfQp3ZbUtNEj2wURtz1t6U/edit"
+                    href="/resume.pdf"
                     src="/resume.png"
                     alt="resume logo"
                 />
