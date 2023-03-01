@@ -1,13 +1,16 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+
 function Projects(props) {
     return (
         <div>
-            <p className="text-2xl flex justify-center  mt-32 mb-20 text-[50px] md:text-[100px] font-header underline">
+            <p className="text-2xl flex justify-center  mt-32 mb-20 text-[75px] md:text-[100px] font-header underline">
                 Projects
             </p>
             <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                 <ProjectCard
+                    width={100}
+                    height={50}
                     src="/donewithit.png"
                     alt="done with it screencap"
                     title="DoneWithIt"
