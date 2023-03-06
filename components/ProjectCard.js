@@ -1,11 +1,13 @@
+import Image from "next/image";
 import React from "react";
 
 export default function ProjectCard(props) {
     return (
         <div className="max-w-sm bg-slate-400 rounded overflow-hidden shadow-lg mx-auto hover:scale-110 transition duration-300 ease-in-out">
             <div className="flex justify-center">
-                <img
+                <Image
                     className="max-h-64"
+                    height={props.height}
                     width={props.width}
                     src={props.src}
                     alt={props.alt}
@@ -27,10 +29,12 @@ export default function ProjectCard(props) {
                     </a>
 
                     <a href={props.github} rel="noreferrer" target="_blank">
-                        <img
+                        <Image
+                            height={100}
+                            width={100}
                             alt="github logo"
                             className="max-h-14 hover:scale-125 transition duration-300 ease-in-out"
-                            src="github.png"
+                            src="/github.png"
                         />
                     </a>
                 </div>

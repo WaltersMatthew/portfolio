@@ -1,3 +1,4 @@
+import Image from "next/image";
 import LinkIcon from "./LinkIcon";
 
 export default function About() {
@@ -21,14 +22,19 @@ export default function About() {
                         coffee.
                     </p>
                 </div>
-
-                <img
-                    src="/headshot.jpeg"
-                    className="max-h-80 mx-auto rounded-xl"
-                    alt="Matt headshot"
-                />
+                <div className="flex justify-center -mt-10 md:mt-0">
+                    <Image
+                        width={350}
+                        height={350}
+                        src="/headshot.jpeg"
+                        className="max-h-80 mx-auto rounded-xl"
+                        alt="Matt headshot"
+                        layout="fixed"
+                        priority="true"
+                    />
+                </div>
             </div>
-            <div target="_blank" className="flex justify-center mt-6 md:mt-0">
+            <div target="_blank" className="flex justify-center mt-6 md:mt-4">
                 <LinkIcon
                     href="https://github.com/WaltersMatthew"
                     src="/github.png"

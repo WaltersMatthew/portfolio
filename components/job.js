@@ -1,5 +1,3 @@
-import { SERVER_PROPS_ID } from "next/dist/shared/lib/constants";
-
 export default function Job(props) {
     return (
         <div className="bg-slate-400 p-4 rounded-lg">

@@ -9,8 +9,8 @@ function Projects(props) {
             </p>
             <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                 <ProjectCard
-                    width={100}
-                    height={50}
+                    width={175}
+                    height={300}
                     src="/donewithit.png"
                     alt="done with it screencap"
                     title="DoneWithIt"
@@ -19,6 +19,8 @@ function Projects(props) {
                     github="https://github.com/WaltersMatthew/DoneWithIt"
                 />
                 <ProjectCard
+                    width={400}
+                    height={300}
                     src="/musicly.png"
                     alt="musicly screencap"
                     title="Musicly"
@@ -32,6 +34,8 @@ function Projects(props) {
                     github="https://github.com/WaltersMatthew/musicly"
                 />
                 <ProjectCard
+                    width={400}
+                    height={300}
                     src="/podcats.png"
                     alt="podcats screencap"
                     title="Pod-Cats"
@@ -45,6 +49,8 @@ function Projects(props) {
                     github="https://github.com/WaltersMatthew/pod-cats-client"
                 />
                 <ProjectCard
+                    width={400}
+                    height={300}
                     src="/booktalk.png"
                     alt="booktalk screencap"
                     title="Booktalk"
@@ -57,6 +63,8 @@ function Projects(props) {
                     github="https://github.com/WaltersMatthew/BookTalk"
                 />
                 <ProjectCard
+                    width={400}
+                    height={300}
                     src="/FITC.png"
                     alt="Fritz in the city screencap"
                     title="Fritz in the City"
