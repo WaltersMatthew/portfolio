@@ -9,6 +9,17 @@ function Projects(props) {
             </p>
             <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                 <ProjectCard
+                    width={400}
+                    height={300}
+                    src="/colorbutton.png"
+                    alt="Color Button screencap"
+                    title="Color Button"
+                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage."
+                    liveStatus="Live Deployment"
+                    live="https://color-button.vercel.app/"
+                    github="https://github.com/WaltersMatthew/DoneWithIt"
+                />
+                <ProjectCard
                     width={175}
                     height={300}
                     src="/donewithit.png"
