@@ -23,7 +23,7 @@ export default function Footer() {
                                 className="underline"
                                 href="mailto:waltersmatthew88@gmail.com"
                             >
-                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out">
+                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl">
                                     waltersmatthew88@gmail.com
                                 </button>
                             </a>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out">
+                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl">
                                     in/matthew-walters13
                                 </button>
                             </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl hover:scale-110 transition duration-300 ease-in-out">
+                                <button className="bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-xl">
                                     Here!
                                 </button>
                             </a>

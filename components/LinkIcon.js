@@ -9,7 +9,7 @@ function LinkIcon(props) {
                 height={100}
                 src={props.src}
                 alt={props.alt}
-                className="h-20 m-4 hover:scale-125 transition duration-300 ease-in-out"
+                className="h-20 m-4"
             />
         </a>
     );
