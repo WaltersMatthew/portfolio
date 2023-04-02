@@ -7,16 +7,16 @@ export default function About() {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-20">
                 <div className="p-4 text-xl flex flex-col justify-center rounded-xl">
                     <p className="mb-4">
-                        Hello! My name is Matt Walters and I'm a Full-Stack
-                        Software Engineer based in Southern California. When I'm
-                        not coding, I enjoy spending time outside with my dogs
-                        or savoring a delicious cup of coffee.
+                        Hello! My name is Matt Walters and I am a Full-Stack
+                        Software Engineer based in Southern California. When I
+                        am not coding, I enjoy spending time outside with my
+                        dogs or savoring a delicious cup of coffee.
                     </p>
                     <p className="mb-4">
-                        Fun fact about me: I'm a competitive drummer and
+                        Fun fact about me: I am a competitive drummer and
                         percussion instructor with over 15 years of experience
                         playing around the world and teaching students at
-                        various ensembles in Southern California. I've found
+                        various ensembles in Southern California. I have found
                         that the focus and dedication required in music have
                         translated well into my software engineering work,
                         driving me to continually learn and improve.
@@ -26,9 +26,10 @@ export default function About() {
                         needs of my clients and users is my passion. For me,
                         software engineering is all about collaboration,
                         creativity, and problem-solving. This field is
-                        constantly evolving, and I'm thrilled to be a part of
-                        it. If you're interested in learning more about me or my
-                        work, please connect with me on LinkedIn or over email.
+                        constantly evolving, and I am thrilled to be a part of
+                        it. If you are interested in learning more about me or
+                        my work, please connect with me on LinkedIn or over
+                        email.
                     </p>
                 </div>
                 <div className="flex justify-center -mt-10 md:mt-0">
