@@ -14,8 +14,10 @@ export default function ProjectCard(props) {
                 />
             </div>
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{props.title}</div>
-                <p className="text-base">{props.text}</p>
+                <div>
+                    <div className="font-bold text-xl mb-2">{props.title}</div>
+                    <p className="text-base">{props.text}</p>
+                </div>
                 <div className="flex justify-between mt-10 items-end">
                     <a
                         className="underline"

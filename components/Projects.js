@@ -11,10 +11,21 @@ function Projects(props) {
                 <ProjectCard
                     width={400}
                     height={300}
+                    src="/sundaes.png"
+                    alt="sundaes screencap"
+                    title="Sundaes On Demand"
+                    text="A React app to practice Jest testing library. 100% testing coverage, using unit testing and functional testing. Includes code and mock service worker for running Node.js server, or running serverless."
+                    liveStatus="Live Deployment"
+                    live="https://sundaes-on-demand.vercel.app/"
+                    github="https://github.com/WaltersMatthew/sundaes-on-demand"
+                />
+                <ProjectCard
+                    width={400}
+                    height={300}
                     src="/colorbutton.png"
                     alt="Color Button screencap"
                     title="Color Button"
-                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage."
+                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage with unit tests."
                     liveStatus="Live Deployment"
                     live="https://color-button.vercel.app/"
                     github="https://github.com/WaltersMatthew/DoneWithIt"
