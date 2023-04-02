@@ -4,8 +4,11 @@ import ProjectCard from "./ProjectCard";
 function Projects(props) {
     return (
         <div>
-            <p className="text-2xl flex justify-center  mt-32 mb-20 text-[75px] md:text-[100px] font-header underline">
+            <p className="text-2xl flex justify-center mt-32 mb-20 text-[75px] md:text-[100px] font-header underline">
                 Projects
+            </p>
+            <p className="text-center text-5xl mb-10 border-b-4 border-black font-header">
+                Fullstack
             </p>
             <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                 <ProjectCard
@@ -19,17 +22,7 @@ function Projects(props) {
                     live="https://sundaes-on-demand.vercel.app/"
                     github="https://github.com/WaltersMatthew/sundaes-on-demand"
                 />
-                <ProjectCard
-                    width={400}
-                    height={300}
-                    src="/colorbutton.png"
-                    alt="Color Button screencap"
-                    title="Color Button"
-                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage with unit tests."
-                    liveStatus="Live Deployment"
-                    live="https://color-button.vercel.app/"
-                    github="https://github.com/WaltersMatthew/DoneWithIt"
-                />
+
                 <ProjectCard
                     width={175}
                     height={300}
@@ -83,6 +76,46 @@ function Projects(props) {
                     liveStatus="Live Deployment"
                     live="https://booktalk-waltersmatthew.koyeb.app/"
                     github="https://github.com/WaltersMatthew/BookTalk"
+                />
+            </div>
+            <div className="">
+                <p className="text-center text-5xl mb-10 font-header border-b-4 border-black">
+                    Frontend
+                </p>
+            </div>
+            <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
+                <ProjectCard
+                    width={400}
+                    height={300}
+                    src="/pokedex.png"
+                    alt="Pokemon battle screencap"
+                    title="Pokemon Battle!"
+                    text="A fun way to get quick pokemon battles. Each refresh fills both teams with random first generation pokemon with custom borders for types and battle the teams based on exp points"
+                    liveStatus="Live Deployment"
+                    live="https://pokemon-battle-kappa.vercel.app/"
+                    github="https://github.com/WaltersMatthew/Pokemon-battle"
+                />
+                <ProjectCard
+                    width={400}
+                    height={300}
+                    src="/ecomm.png"
+                    alt="Ecommerce Mock screencap"
+                    title="Ecommerce Mock"
+                    text="Using a dummy data API to populate a React site. Using BrowserRouter for navigation and using the Link component to pass props. Styled with TailwindCSS class names"
+                    liveStatus="Live Deployment"
+                    live="https://ecommerce-mockup-gray.vercel.app/"
+                    github="https://github.com/WaltersMatthew/Ecomm"
+                />
+                <ProjectCard
+                    width={400}
+                    height={300}
+                    src="/colorbutton.png"
+                    alt="Color Button screencap"
+                    title="Color Button"
+                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage with unit tests."
+                    liveStatus="Live Deployment"
+                    live="https://color-button.vercel.app/"
+                    github="https://github.com/WaltersMatthew/DoneWithIt"
                 />
                 <ProjectCard
                     width={400}
