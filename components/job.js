@@ -14,7 +14,7 @@ export default function Job(props) {
             <a
                 key={`url${url}`}
                 href={url}
-                className="border-black rounded-lg bg-slate-700 hover:bg-black text-white transition ease-in-out mx-2 p-2 rounded-x"
+                className="border-black rounded-lg bg-slate-700 hover:bg-black text-white transition ease-in-out m-2 p-2 px-6"
             >
                 {extractTextFromUrl(url)}
             </a>
@@ -29,8 +29,8 @@ export default function Job(props) {
                     {props.title}
                     <span className="italic">{props.time}</span>
                 </p>
+                <p>{props.description}</p>
             </div>
-            <p>{props.description}</p>
             <div className="flex flex-wrap justify-around mt-10">{urlMap}</div>
         </div>
     );
