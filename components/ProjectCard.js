@@ -28,7 +28,12 @@ export default function ProjectCard(props) {
                         </button>
                     </a>
 
-                    <a href={props.github} rel="noreferrer" target="_blank">
+                    <a
+                        className="hover:opacity-50"
+                        href={props.github}
+                        rel="noreferrer"
+                        target="_blank"
+                    >
                         <Image
                             height={100}
                             width={100}
