@@ -15,15 +15,15 @@ export default function Experience() {
                     urls={["https://www.makingzine.com"]}
                 />
                 <Job
-                    title="Volunteer Mentor"
+                    title="Cohort Instructional Lead"
                     company="Code the Dream Bootcamp"
                     time="1/23 - current"
-                    description="As a mentor for groups of students learning React and JavaScript, I provide guidance and support that help students improve their skills and understanding of the language and framework. This includes reviewing and providing feedback on students' homework and projects, leading weekly group discussions and coding sessions to review key concepts and provide additional practice opportunities. Through this approach, I aim to create a supportive and collaborative learning environment that helps students achieve their goals and become proficient developers."
+                    description="As a cohort instructional lead, I create and deliver a comprehensive JavaScript bootcamp curriculum, covering essential programming concepts and advanced JavaScript techniques. I provide constructive feedback to students, fostering their growth and mastery of JavaScript programming concepts and best practices. Additionally, I guide students through weekly group discussions and coding sessions, offering support to help them improve their skills and understanding of the language and frameworks. Through this approach, I established a supportive and collaborative learning environment, enabling students to achieve their goals and become proficient developers. In my time with Code the Dream, I increased the passing rate in my cohort from 40% to 67%"
                     urls={["https://www.codethedream.org"]}
                 />
                 <Job
                     title="Freelance Contractor"
-                    company="BoldyFine LLC, California Drums"
+                    company="BoldyFine LLC, Sidle Entertainment, California Drums"
                     time="8/19-8/22"
                     description="During my time as a freelance frontend developer, I gained experience working with both Wordpress and Squarespace platforms to design and develop visually compelling e-commerce and promotional websites. With my proficiency in CSS, JavaScript, and agile methodologies, I successfully delivered high-quality work, exceeding client expectations and providing exceptional customer service. At California Drums, I created a full-scale e-commerce site from scratch, while at Boldy Fine, I utilized Squarespace to create professional and effective websites that drove results. These experiences have equipped me with the skills and knowledge necessary to create impactful and engaging websites that meet client needs."
                     urls={[

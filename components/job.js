@@ -9,6 +9,7 @@ export default function Job(props) {
             return null;
         }
     };
+
     const urlMap = props.urls.map((url) => {
         return (
             <a
