@@ -5,12 +5,14 @@ import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Freelance from "../components/Freelance";
 function MyApp({ Component, pageProps }) {
     return (
         <>
             <Component {...pageProps} />
             <About />
             <Experience />
+            <Freelance />
             <Skills />
             <Projects />
             {/* footer */}
