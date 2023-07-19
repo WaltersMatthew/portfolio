@@ -9,19 +9,22 @@ function Freelance() {
             </h1>
             <div className="grid md:grid-cols-3 mx-10 gap-10">
                 <Freejob
-                    job="Sidle"
+                    job="Sidle Entertainment"
                     src="/sidle.png"
                     description="loremIpsum"
+                    href="https://www.sidleentertainment.com"
                 />
                 <Freejob
-                    job="CA Drums"
+                    job="California Drums"
                     src="/cadrums.png"
                     description="Lorem Ipsum"
+                    href="https://www.cadrums.com"
                 />
                 <Freejob
                     job="Marching Huskies"
                     src="/ch.png"
                     description="Lorem Ipsum"
+                    href="https://www.marchinghuskies.com"
                 />
             </div>
         </div>

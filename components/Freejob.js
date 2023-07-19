@@ -3,9 +3,19 @@ import Image from "next/image";
 
 function Freejob(props) {
     return (
-        <div className="bg-slate-400 p-4 rounded-lg flex flex-col justify-between  overflow-hidden">
-            <p className="font-bold text-xl mb-2">{props.job}</p>
-            <div className="hover:scale-110 transition duration-300 ease-in-out">
+        <div className="bg-slate-400 p-4 rounded-lg flex flex-col justify-between  overflow-hidden hover:scale-110 transition duration-300 ease-in-out">
+            <div className="flex justify-between">
+                <p className="font-bold text-xl mb-2">{props.job}</p>
+                <a
+                    className="underline"
+                    href={props.href}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    {props.href.slice(12)}
+                </a>
+            </div>
+            <div className="">
                 <Image
                     layout="responsive"
                     height={200}
