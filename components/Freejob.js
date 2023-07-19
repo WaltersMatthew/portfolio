@@ -15,15 +15,15 @@ function Freejob(props) {
                     {props.href.slice(12)}
                 </a>
             </div>
-            <div className="">
+            <a href={props.href} target="_blank" rel="noreferrer">
                 <Image
                     layout="responsive"
-                    height={200}
+                    height={180}
                     width={300}
                     src={props.src}
                     alt={props.job}
                 />
-            </div>
+            </a>
         </div>
     );
 }

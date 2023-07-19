@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LinkIcon from "./LinkIcon";
+import { Tooltip } from "@geist-ui/core";
 
 export default function About() {
     return (
@@ -45,26 +46,54 @@ export default function About() {
                 </div>
             </div>
             <div target="_blank" className="flex justify-center mt-6 md:mt-4">
-                <LinkIcon
-                    href="https://github.com/WaltersMatthew"
-                    src="/github.png"
-                    alt="github logo"
-                />
-                <LinkIcon
-                    href="https://www.linkedin.com/in/matthew-walters13/"
-                    src="/linkedin.png"
-                    alt="linkedin logo"
-                />
-                <LinkIcon
-                    href="mailto:waltersmatthew88@gmail.com"
-                    src="/email.png"
-                    alt="email logo"
-                />
-                <LinkIcon
-                    href="/resume.pdf"
-                    src="/resume.png"
-                    alt="resume logo"
-                />
+                <Tooltip
+                    type="secondary"
+                    leaveDelay="100"
+                    placement="bottom"
+                    text="Github"
+                >
+                    <LinkIcon
+                        href="https://github.com/WaltersMatthew"
+                        src="/github.png"
+                        alt="github logo"
+                    />
+                </Tooltip>
+                <Tooltip
+                    type="secondary"
+                    leaveDelay="100"
+                    placement="bottom"
+                    text="LinkedIn"
+                >
+                    <LinkIcon
+                        href="https://www.linkedin.com/in/matthew-walters13/"
+                        src="/linkedin.png"
+                        alt="linkedin logo"
+                    />
+                </Tooltip>
+                <Tooltip
+                    type="secondary"
+                    leaveDelay="100"
+                    placement="bottom"
+                    text="Email"
+                >
+                    <LinkIcon
+                        href="mailto:waltersmatthew88@gmail.com"
+                        src="/email.png"
+                        alt="email logo"
+                    />
+                </Tooltip>
+                <Tooltip
+                    type="secondary"
+                    leaveDelay="100"
+                    placement="bottom"
+                    text="Resume"
+                >
+                    <LinkIcon
+                        href="/resume.pdf"
+                        src="/resume.png"
+                        alt="resume logo"
+                    />
+                </Tooltip>
             </div>
         </div>
     );

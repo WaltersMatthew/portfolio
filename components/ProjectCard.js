@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Tooltip } from "@geist-ui/core";
 
 export default function ProjectCard(props) {
     return (
@@ -18,7 +19,7 @@ export default function ProjectCard(props) {
                     <div className="font-bold text-xl mb-2">{props.title}</div>
                     <p className="text-base">{props.text}</p>
                 </div>
-                <div className="flex justify-between mt-10 items-end">
+                <div className="flex justify-between mt-10 mb-4 items-end">
                     <a
                         className="underline"
                         href={props.live}
@@ -29,21 +30,27 @@ export default function ProjectCard(props) {
                             {props.liveStatus}
                         </button>
                     </a>
-
-                    <a
-                        className="hover:opacity-50"
-                        href={props.github}
-                        rel="noreferrer"
-                        target="_blank"
+                    <Tooltip
+                        type="secondary"
+                        leaveDelay="100"
+                        placement="bottom"
+                        text="Github Repository"
                     >
-                        <Image
-                            height={100}
-                            width={100}
-                            alt="github logo"
-                            className="max-h-14"
-                            src="/github.png"
-                        />
-                    </a>
+                        <a
+                            className="hover:opacity-50"
+                            href={props.github}
+                            rel="noreferrer"
+                            target="_blank"
+                        >
+                            <Image
+                                height={100}
+                                width={100}
+                                alt="github logo"
+                                className="max-h-14"
+                                src="/github.png"
+                            />
+                        </a>
+                    </Tooltip>
                 </div>
             </div>
         </div>
