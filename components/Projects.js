@@ -85,6 +85,17 @@ function Projects(props) {
             </div>
             <div className="grid gap-4 lg:grid-cols-3 sm:grid-cols-2 p-4">
                 <ProjectCard
+                    width={150}
+                    height={300}
+                    src="/BCC.png"
+                    alt="Coffee Screencap"
+                    title="Broken City Coffee"
+                    text="Step into the world of Broken City Coffee, a React-powered coffee shop experience. Explore the menu, manage your selections with dynamic state hooks, and indulge in a journey enhanced by local storage persistence and Tailwind CSS elegance."
+                    liveStatus="Live Deployment"
+                    live="https://broken-city-coffee.vercel.app/"
+                    github="https://github.com/WaltersMatthew/BrokenCityCoffee"
+                />
+                <ProjectCard
                     width={400}
                     height={300}
                     src="/pokedex.png"
