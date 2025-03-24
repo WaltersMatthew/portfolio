@@ -25,14 +25,14 @@ export default function About() {
                         driving me to continually learn and improve.
                     </p>
                     <p className="">
-                        Creating elegant, functional solutions that meet the
-                        needs of my clients and users is my passion. For me,
-                        software engineering is all about collaboration,
-                        creativity, and problem-solving. This field is
-                        constantly evolving, and I am thrilled to be a part of
-                        it. If you are interested in learning more about me or
-                        my work, please connect with me on LinkedIn or over
-                        email.
+                        Creating elegant, functional solutions that suppport the
+                        goals of for-good organizations and their users is my
+                        passion. For me, software engineering is all about
+                        collaboration, creativity, and problem-solving. This
+                        field is constantly evolving, and I am thrilled to be a
+                        part of it. If you are interested in learning more about
+                        me or my work, please connect with me on LinkedIn or
+                        over email.
                     </p>
                 </div>
                 <div className="flex justify-center -mt-10 md:mt-0">
