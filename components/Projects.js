@@ -29,7 +29,7 @@ function Projects(props) {
                     src="/donewithit.png"
                     alt="done with it screencap"
                     title="DoneWithIt"
-                    text="A React Native app for people to buy and sell used items. Log in, post items with photos and descriptions, and send messages. Developed with Expo, run on iOS and Android emulators with Node.JS backend."
+                    text="A React Native app for people to buy and sell used items. Log in, post items with photos and descriptions, and send messages. Developed with Expo, and run on iOS/Android emulators with Node.JS backend."
                     liveStatus="Live Deployment Unavailable"
                     github="https://github.com/WaltersMatthew/DoneWithIt"
                 />
