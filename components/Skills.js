@@ -8,6 +8,12 @@ function Skills(props) {
                 Skills
             </p>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 py-4">
+                <SkillCard
+                    src="/salesforce.svg"
+                    alt="Salesforce"
+                    skill="Salesforce Admin"
+                />
+                <SkillCard src="/LWC.png" alt="LWC" skill="LWC Dev" />
                 <SkillCard src="/html.png" alt="html" skill="HTML 5" />
                 <SkillCard src="/css.png" alt="css" skill="CSS 3" />
                 <SkillCard src="/js.png" alt="javascript" skill="JavaScript" />
@@ -20,17 +26,11 @@ function Skills(props) {
                 />
                 <SkillCard src="/python.png" alt="python" skill="Python" />
                 <SkillCard
-                    src="/bootstrap.png"
-                    alt="bootstrap"
-                    skill="Bootstrap"
-                />
-                <SkillCard
                     src="/tailwind.png"
                     alt="tailwind"
                     skill="Tailwind"
                 />
                 <SkillCard src="/django.png" alt="django" skill="Django" />
-                <SkillCard src="/express.png" alt="express" skill="Express" />
                 <SkillCard
                     src="/postgres.png"
                     alt="postgres"

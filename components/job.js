@@ -1,26 +1,13 @@
 export default function Job(props) {
-    const extractTextFromUrl = (url) => {
-        const regex = /^(https?:\/\/)?(www\.)?([^.\/]+)\.(com|org)$/;
-        const match = url.match(regex);
-        if (match) {
-            return match[3];
-        } else {
-            console.log(url);
-            return null;
-        }
-    };
-
-    const urlMap = props.urls.map((url) => {
-        return (
-            <a
-                key={`url${url}`}
-                href={url}
-                className="border-black rounded-lg bg-slate-700 hover:bg-black text-white transition ease-in-out m-2 p-2 px-6"
-            >
-                {extractTextFromUrl(url)}
-            </a>
-        );
-    });
+    const urlMap = props.urls.map(({ href, label }, index) => (
+        <a
+            key={`url${index}`}
+            href={href}
+            className="border-black rounded-lg bg-slate-700 hover:bg-black text-white transition ease-in-out m-2 p-2 px-6"
+        >
+            {label}
+        </a>
+    ));
 
     return (
         <div className="bg-slate-400 p-4 rounded-lg flex flex-col justify-between">

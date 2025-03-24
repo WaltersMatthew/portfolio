@@ -48,35 +48,6 @@ function Projects(props) {
                     live="https://musicly-swart.vercel.app/"
                     github="https://github.com/WaltersMatthew/musicly"
                 />
-                <ProjectCard
-                    width={400}
-                    height={300}
-                    src="/podcats.png"
-                    alt="podcats screencap"
-                    title="Pod-Cats"
-                    text="A social app for all things cats! A mobile-first
-                        app to find and share photos of random cats, or
-                        your own furry friends. Includes a social feed
-                        featuring all posts from all users. Group
-                        project using React and MongoDB"
-                    liveStatus="Live Deployment"
-                    live="https://lucky-pudding-9e4bf7.netlify.app/"
-                    github="https://github.com/WaltersMatthew/pod-cats-client"
-                />
-                <ProjectCard
-                    width={400}
-                    height={300}
-                    src="/booktalk.png"
-                    alt="booktalk screencap"
-                    title="Booktalk"
-                    text="An all-in-one spot for book lovers to find their
-                        favorite books and authors, leave reviews, and
-                        view their friends profiles. Solo project with
-                        Express and PostgreSQL"
-                    liveStatus="Live Deployment"
-                    live="https://booktalk-waltersmatthew.koyeb.app/"
-                    github="https://github.com/WaltersMatthew/BookTalk"
-                />
             </div>
             <div className="">
                 <p className="text-center text-5xl mb-10 font-header border-b-4 border-black">
@@ -116,17 +87,6 @@ function Projects(props) {
                     liveStatus="Live Deployment"
                     live="https://ecommerce-mockup-gray.vercel.app/"
                     github="https://github.com/WaltersMatthew/Ecomm"
-                />
-                <ProjectCard
-                    width={400}
-                    height={300}
-                    src="/colorbutton.png"
-                    alt="Color Button screencap"
-                    title="Color Button"
-                    text="A simple React app to learn test writing with Jest. Button changes color on click and is disabled on checkbox click. 100% testing coverage with unit tests."
-                    liveStatus="Live Deployment"
-                    live="https://color-button.vercel.app/"
-                    github="https://github.com/WaltersMatthew/DoneWithIt"
                 />
                 <ProjectCard
                     width={400}
