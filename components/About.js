@@ -9,9 +9,11 @@ export default function About() {
                 <div className="p-4 text-xl flex flex-col justify-center rounded-xl">
                     <p className="mb-4">
                         Hello! My name is Matt Walters and I am a Full-Stack
-                        Software Engineer based in Southern California. When I
-                        am not coding, I enjoy spending time outside with my
-                        dogs or savoring a delicious cup of coffee.
+                        Software Engineer based in Southern California with
+                        experience in Salesforce administration and creating
+                        custom LWC solutions. When I am not coding, I enjoy
+                        spending time outside with my dogs or savoring a
+                        delicious cup of coffee.
                     </p>
                     <p className="mb-4">
                         Fun fact about me: I am a competitive drummer and
