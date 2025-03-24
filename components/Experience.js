@@ -15,7 +15,7 @@ export default function Experience() {
                     urls={[
                         {
                             href: "https://docs.google.com/presentation/d/1wT_kpGNK_Ax6hYaFBYGNk2g8G9UErnm-/",
-                            label: "Salesforce Professional Portfolio",
+                            label: "Salesforce Portfolio",
                         },
                     ]}
                 />
